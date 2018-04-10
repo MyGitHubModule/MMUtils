@@ -1,0 +1,6 @@
+framework module MMUtils {
+  umbrella header "MMUtils-umbrella.h"
+
+  export *
+  module * { export * }
+}

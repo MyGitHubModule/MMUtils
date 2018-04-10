@@ -1,0 +1,33 @@
+PODS:
+  - MMUtils (0.0.1):
+    - Reachability (~> 3.2)
+    - ReactiveCocoa (~> 2.5)
+  - Reachability (3.2)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+
+DEPENDENCIES:
+  - MMUtils (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Reachability
+    - ReactiveCocoa
+
+EXTERNAL SOURCES:
+  MMUtils:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MMUtils: 104e88828f95ee469dc556a4b5cf558ec64ea0ba
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+
+PODFILE CHECKSUM: f54557abdcac77be170f6a24c4d8a76f7f1a0d6c
+
+COCOAPODS: 1.5.0
